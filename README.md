@@ -1,6 +1,7 @@
 # Material-Heterogoneity
 modeling material heterogeneity with size effects using spatially-correlated weibull distribution
 the python script generates a grid of random values from weibul distribution using inverse transform method. m is the heterogeneity index. Larger values of $m$ results in less variation, and as it approaches infinity, the material becomes homogeneous. The spatial correlation length factor $\theta$ describes the correlation degree between elements. A smaller correlation factor means larger gradient of values, which can be used to include size effects.
+
 $theta=0.1:$
 ![theta=0 1](https://user-images.githubusercontent.com/69943289/221440559-9cf780e6-c335-4bf3-976c-aca2fcbd8fd8.jpg)
 $theta=0.5:$
